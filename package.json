@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "717795cd-cb8f-4163-a6f2-8cb475eb2c8f",
+    "appType": "clockface",
+    "appDisplayName": "Simple watch face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Simple watch face"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

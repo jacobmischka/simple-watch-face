@@ -1,0 +1,32 @@
+<svg class="background">
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+  </defs>
+
+  <svg id="top-row">
+    <svg id="calories-container" class="container">
+      <image id="calories-icon" class="icon" width="32" height="32" href="calories.png" />
+      <text id="calories" class="value" />
+    </svg>
+
+    <svg id="heart-rate-container" class="container">
+      <image id="heart-icon" class="icon" width="32" height="32" href="heart.png" />
+      <text id="heart-rate" class="value" />
+    </svg>
+
+    <svg id="steps-container" class="container">
+      <image id="steps-icon" class="icon" width="32" height="32" href="steps.png" />
+      <text id="steps" class="value" />
+    </svg>
+
+    <svg id="distance-container" class="container">
+      <image id="distance-icon" class="icon" width="32" height="32" href="distance.png" />
+      <text id="distance" class="value" />
+    </svg>
+  </svg>
+
+  <g id="clock">
+    <text id="time" />
+    <text id="date" />
+  </g>
+</svg>
